@@ -5,6 +5,9 @@
 class Charge
 {
 private:
+	/*	Peut-être il faudrait utiliser le type prévu pour les coordonnées.
+	*	Remarque valable pour tout le projet.
+	*/
     int positionX;
     int positionY;
     double charge;

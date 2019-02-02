@@ -12,6 +12,11 @@ Vecteur Vecteur::operator+(Vecteur v){
     return * new Vecteur(this->m_x + v.m_x, this->m_y+v.m_y);
 }
 
+/*
+* Permet de Créer un Vecteur à partir d'une charge et
+* de la position du vecteur.
+* Peut-être il faudait enlever toutes les constantes.
+*/
 Vecteur::Vecteur(Charge charge, int posX, int posY){
     double e0 = 8.85418782 * std::pow(10,-12);
     const double pi = 3.1415926535897;
